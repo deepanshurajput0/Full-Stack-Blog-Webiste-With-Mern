@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;800;900&family=Outfit:wght@100;200;500;600;900&family=Poppins:wght@300;400;500&family=Raleway:wght@600;900&display=swap');
+
+
+.container img{
+    height: 60vh;
+    padding-top: 70px;
+}
+
+.container{
+    text-align: center;
+}
+.container .heading{
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.container .para p{
+    font-family: 'Poppins', sans-serif;
+    margin: 70px;
+}
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.edit {
+    margin-right: 40px;
+    cursor: pointer;
+}
+.remove{
+    cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+    .container img{
+        height: 250px;
+    }
+    .main-heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-heading .back{
+      display: none;
+    }
+
+}

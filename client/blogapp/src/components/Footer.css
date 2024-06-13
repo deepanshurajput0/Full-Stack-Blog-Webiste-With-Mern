@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;800;900&family=Outfit:wght@100;200;500;600;900&family=Poppins:wght@300;400;500&family=Raleway:wght@600;900&display=swap');
+
+.footer{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 20vh;
+
+}
+.footer-content{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.footer-content p{
+    color: white;
+}
+.footer-icons{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+   .footer-content h1{
+    font-size: 22px;
+   }
+   .footer-content p{
+    font-size: 15px;
+   }
+   .footer-icons{
+    margin-top: 20px;
+   }
+   .footer-icons{
+    font-size: 22px;
+   }
+}

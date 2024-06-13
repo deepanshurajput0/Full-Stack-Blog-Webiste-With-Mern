@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;800;900&family=Outfit:wght@100;200;500;600;900&family=Poppins:wght@300;400;500&family=Raleway:wght@600;900&display=swap');
+
+.blog-container img{
+  height: 300px;
+  width: 25rem;
+  padding-left: 40px;
+}
+.blog-container{
+    padding-top: 80px;
+    display: flex;
+    
+}
+
+.blog-data {
+    width: 60rem;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.blog-data h1{
+    padding-bottom: 20px;
+}
+
+.blog-data p{
+    padding-bottom: 40px;
+}
+
+.blog-container .readmore{
+    padding: 8px;
+    border-radius: 0;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    
+}
+
+.readmore:hover{
+    background: white;
+    color: black;
+    transform: scaleX(0.9s);
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        overflow-x: hidden;
+    }
+  .blog-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-data{
+    width: 22rem;
+    align-items: center;
+  }
+  .blog-container img{
+    height: 230px;
+    padding: 0;
+    width: 300px;
+  }  
+  .blog-data h1{
+    padding-top: 20px;
+  }
+  .blog-data p{
+   font-size: 18px;
+  }
+ 
+} 
